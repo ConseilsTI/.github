@@ -1,0 +1,7 @@
+{
+  "name": "Terraform Docs",
+  "description": "It uses GitHub Action `terraform-docs/gh-actions` to create README.md file.",
+  "categories": [
+      "utilities"
+  ]
+}

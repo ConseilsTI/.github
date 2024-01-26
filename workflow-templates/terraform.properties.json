@@ -1,0 +1,7 @@
+{
+  "name": "Terraform Format",
+  "description": "It uses the GitHub Action `GitHubAction-TerraformFormat` to run `terraform fmt`. If change are made to the code, the code is push to the branch.",
+  "categories": [
+      "code-quality"
+  ]
+}

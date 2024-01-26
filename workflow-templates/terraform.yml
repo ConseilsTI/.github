@@ -9,7 +9,7 @@
 # - https://github.com/benyboy84/GitHubAction_terraform-fmt
 #
 
-name: Terraform
+name: Terraform Format
 
 on:  # yamllint disable-line rule:truthy
   pull_request:
@@ -24,7 +24,7 @@ permissions:
 
 jobs:
   terraform:
-    name: Terraform
+    name: Terraform Format
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -46,7 +46,7 @@ jobs:
 
       - name: Terraform Format
         id: fmt
-        uses: conseilsti/GitHubAction_TerraformFormat@v1.0.0
+        uses: conseilsti/GitHubAction-TerraformFormat@v1.0.0
         with:
           check: false
           recursive: true

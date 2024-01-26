@@ -1,0 +1,7 @@
+{
+  "name": "Tag Version",
+  "description": "It uses GitHub Action `rymndhng/release-on-push-action` to create a release with sementic version based on label.",
+  "categories": [
+      "continuous-integration"
+  ]
+}

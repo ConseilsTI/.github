@@ -1,11 +1,11 @@
 # This workflow runs on `pull_request` `closed`.
 #
-# `Tag version` job uses `rymndhng/release-on-push-action` to create a release with sementic version.
+# `Tag version` job uses `rymndhng/release-on-push-action` to create a release with sementic version based on label.
 #
 # Documentation
 # - https://github.com/rymndhng/release-on-push-action
 
-name: Tag version
+name: Tag Version
 
 on:  # yamllint disable-line rule:truthy
   pull_request:
@@ -21,7 +21,7 @@ permissions:
 
 jobs:
   tag:
-    name: Tag version
+    name: Tag Version
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

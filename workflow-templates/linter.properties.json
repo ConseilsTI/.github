@@ -1,7 +1,6 @@
 {
   "name": "Lint Code Base",
   "description": "It uses GitHub Action `super-linter/super-linter` to run a combination of various linters, written in bash, to help validate your source code.",
-  "iconName": "oction github",
   "categories": [
       "code-review"
   ]
